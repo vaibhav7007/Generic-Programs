@@ -8,7 +8,7 @@ namespace Generic_Programs
         {
             Console.WriteLine("Welcome to the Generics programs");
             Console.WriteLine("Choose the option from below");
-            Console.WriteLine("1.FindMaxInt\n2.FindFloat");
+            Console.WriteLine("1.FindMaxInt");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -21,10 +21,6 @@ namespace Generic_Programs
                     Console.WriteLine("Enter the Three value");
                     int Third_val = Convert.ToInt32(Console.ReadLine());
                     FindMaxInt.FindIntMaxVal(First_val, Second_val, Third_val);
-                    break;
-
-                case 2:
-                    FindFloatMax.FindFloatMaxVal(12.3f, 44.5f, 55.6f);
                     break;
             }
             Console.ReadLine();
