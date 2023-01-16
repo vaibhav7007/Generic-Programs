@@ -29,15 +29,7 @@ namespace Generic_Programs
                 case 3:
                     FindMaxString.FindString("Apple", "Banana", "Guava");
                     break;
-                case 4:
-                    GenericRefactor1<int>.FindMax(100, 200, 500);
-                    GenericRefactor1<float>.FindMax(10.5f, 20.7f, 56.8f);
-                    GenericRefactor1<string>.FindMax("Apple", "Bannana", "Guava");
-                    break;
-                case 5:
-                    GenericsRefactor2<int> genericRefactor2 = new GenericsRefactor2<int>(12, 40, 60);
-                    genericRefactor2.TestMaximum();
-                    break;
+      
             }
 
             Console.ReadLine();
